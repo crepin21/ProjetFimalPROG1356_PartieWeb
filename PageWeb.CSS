@@ -1,0 +1,58 @@
+body{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px black;
+}
+.header, h2{
+    text-align: center;
+    color: rgb(16, 24, 8);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#confirmation{
+    color: rgb(30, 103, 27);
+}
+#echec{
+    color: red;
+}
+.formulaire{
+    padding: 10px 20px;
+}
+.form-control
+{
+    border-radius:0%;
+    margin-bottom: 100px;
+    padding-bottom: 5 px;
+}
+.form-control label{
+    display: inline-block;
+    margin-bottom: 9px;
+    color: black;
+    text-align:right;
+}
+.form-control input{
+    border: 2px solid rgba(0, 0, 0, 0.308);
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    font-family: inherit;
+    font-size: 18px;
+    padding: 2px;
+
+}
+.form-control i{
+    
+    top: 2px;
+    right: 2px;
+}
+.form-control small{
+    visibility: hidden;
+    bottom: 0;
+    left: 0;
+}

@@ -1,0 +1,19 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+</head>
+<body>
+    <form action="http://127.0.0.1:8000/validate" method="post">
+        {% csrf_token %}
+        nomUc : <input type="text" name="nomUc" ><br><br>
+        nomCapteur : <input type="text" name = "nomCapteur"><br><br>
+        valeurCapteur : <input type="text" name = "valeurCapteur"><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
